@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:id="@+id/rfc"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/cartimage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_launcher_background"></ImageView>
+
+            <TextView
+                android:id="@+id/cartname"
+                android:layout_marginLeft="10dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/cartimage"
+                android:layout_toRightOf="@+id/cartimage"
+                android:text="fjbsdjfds"
+                android:textColor="@color/black"
+                tools:ignore="NotSibling,UnknownIdInLayout"></TextView>
+
+            <TextView
+                android:id="@+id/cartprice"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cartname"
+                android:layout_toRightOf="@+id/cartimage"
+                android:text="kdnfkldk"
+                android:textColor="@color/black">
+
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/cartprice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cartname"
+
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/cartprice"
+                android:text="kdnfkldk"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:id="@+id/sold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cartprice"
+
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/cartimage"
+                android:text="Sold:Landmark Online India Pvt Ltd"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:id="@+id/color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sold"
+
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/cartimage"
+                android:text="Colour:Black"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/color"
+
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/cartimage"
+                android:text="Size:L"
+                android:textColor="@color/black">
+
+
+            </TextView>
+
+            <View
+                android:id="@+id/bb"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+
+                android:layout_marginBottom="?actionBarSize"
+                android:layout_alignParentBottom="true"
+                android:background="#808385">
+
+            </View>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/bb"
+    android:layout_alignTop="@id/bb">
+
+    <TextView
+        android:id="@+id/tg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toLeftOf="@id/vl"
+        android:text="Remove"
+        android:textColor="#F1A252">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/tg"
+        android:layout_toRightOf="@+id/tg"
+        android:textColor="#F1A252"
+        android:text="Move to favourite">
+
+
+    </TextView>
+
+    <View
+        android:id="@+id/vl"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#808385"
+        android:layout_centerHorizontal="true"
+
+
+        >
+
+
+    </View>
+</RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

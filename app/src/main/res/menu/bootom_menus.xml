@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        app:itemIconTint="#F57C00"
+    app:itemTextColor="@color/black"
+        android:icon="@drawable/homee"/>
+    <item
+        android:id="@+id/category"
+        android:title="category"
+        app:itemIconTint="#F57C00"
+        app:itemTextColor="@color/black"
+        android:icon="@drawable/catee"/>
+    <item
+        android:id="@+id/notification"
+        android:title="notification"
+
+
+        android:icon="@drawable/cart"/>
+
+    <item
+        android:id="@+id/account"
+        android:title="profile"
+
+
+        android:icon="@drawable/account"/>
+</menu>

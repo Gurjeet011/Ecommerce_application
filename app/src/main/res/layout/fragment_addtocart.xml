@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Addtocart">
+
+    <RelativeLayout
+
+        android:padding="10dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        >
+
+
+
+
+        <ImageView
+            android:id="@+id/productiamge"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+
+            android:src="@mipmap/ic_launcher">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textprice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="price"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_below="@+id/productiamge">
+
+        </TextView>
+        <TextView
+            android:id="@+id/textprice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/productiamge"
+            android:text="price"
+            android:textColor="#DF0B0B"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/textprice1"
+            android:layout_marginStart="8dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/nameproduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="barnd name"
+            android:layout_below="@+id/textprice1">
+
+        </TextView>
+        <TextView
+            android:id="@+id/desproduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="description name"
+            android:layout_below="@+id/nameproduct">
+
+        </TextView>
+
+    </RelativeLayout>
+</RelativeLayout>
